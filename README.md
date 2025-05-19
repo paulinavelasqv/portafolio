@@ -43,6 +43,19 @@
 
 ---
 
+### 🎬 [Sistema de Reservas de Películas](https://github.com/paulinavelasqv/movie_reservation_system)
+> Sistema para gestionar reservas de asientos para funciones de cine.
+
+- Tecnologías: Node.js, Express, MongoDB, JWT, WebSockets (Socket.IO), Swagger para documentacion API
+- Funcionalidades:
+  - Registro y login de usuarios (con roles 'user' y 'admin').
+  - Ver perfil de usuario y promover a admin (solo admin)
+  - Crear, ver (users), editar y eliminar peliculas (solo admin)
+  - Gestion de bloques de horarios (admin), listar horarios por fecha y detalle de un horario en especifico
+  - Crear, ver y cancelar reservas (users). Ver todas las reservas (admin).
+  - WebSockets integrado para notificar en tiempo real la disponibilidad de asientos al reservar.
+  - Documentación API con Swagger. 
+
 ## 📩 Contacto
 
 - GitHub: [@paulinavelasqv](https://github.com/paulinavelasqv)
